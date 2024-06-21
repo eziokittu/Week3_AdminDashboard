@@ -9,7 +9,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
     <div
       className={`fixed z-30 left-0 top-14 h-full 
       justify-center ${sidebarOpen ? 'flex' : 'hidden md:flex'}
-      w-screen xsm:max-w-48 
+      w-screen xsm:max-w-48 overflow-y-scroll
       ${currentMode==='light' ? 'bg-slate-100' : 'bg-slate-900'}`}
     >
       <div className=''>
@@ -44,6 +44,8 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
           <LinkButton1 setSidebarOpen={setSidebarOpen} linkTo={'/tables/orders'} name={'Orders Table'} />
           <LinkButton1 setSidebarOpen={setSidebarOpen} linkTo={'/tables/products'} name={'Products Table'} />
         </div>
+
+        <div className='h-16' />
       </div>
     </div>
   )
