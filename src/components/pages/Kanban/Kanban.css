@@ -1,0 +1,15 @@
+.e-kanban .e-kanban-table {
+  @apply bg-slate-50 
+}
+.e-kanban .e-kanban-header .e-header-cells {
+  @apply bg-slate-200
+}
+.e-kanban .e-kanban-table.e-content-table .e-card .e-card-header {
+  @apply bg-slate-200
+}
+.e-kanban .e-kanban-table.e-content-table .e-card .e-card-content {
+  @apply bg-slate-50
+}
+.e-kanban .e-kanban-table.e-content-table .e-card .e-card-tag.e-card-label {
+  @apply text-slate-100
+}

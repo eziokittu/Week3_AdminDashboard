@@ -1,0 +1,11 @@
+.custom-grid {
+  @apply bg-white p-4 rounded-lg shadow-md;
+}
+
+.custom-grid .e-headercell {
+  @apply bg-blue-500 text-white;
+}
+
+.custom-grid .e-rowcell {
+  @apply border-b border-gray-200;
+}

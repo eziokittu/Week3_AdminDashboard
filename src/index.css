@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar modification */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-slate-200;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-800;
+}

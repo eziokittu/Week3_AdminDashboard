@@ -1,0 +1,21 @@
+/* src/custom-calendar.css */
+
+.custom-calendar .e-header {
+  @apply bg-blue-500 text-white p-2 rounded-t-lg text-2xl;
+}
+
+.custom-calendar .e-content {
+  @apply bg-gray-50 p-4 rounded-b-lg;
+}
+
+.custom-calendar .e-cell {
+  @apply p-2 text-center cursor-default text-xl;
+}
+
+.custom-calendar .e-selected {
+  @apply bg-blue-500 text-white;
+}
+
+.e-calendar .e-btn.e-today.e-flat.e-primary, .e-calendar .e-css.e-btn.e-today.e-flat.e-primary {
+  @apply bg-gray-100 hover:bg-blue-500
+}
